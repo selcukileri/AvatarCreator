@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B65534662BBD2ED900C27827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534652BBD2ED900C27827 /* AppDelegate.swift */; };
+		B655346F2BBD2EDB00C27827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B655346E2BBD2EDB00C27827 /* Assets.xcassets */; };
+		B65534722BBD2EDB00C27827 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B65534712BBD2EDB00C27827 /* Base */; };
+		B655347A2BBD2F0B00C27827 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534792BBD2F0B00C27827 /* CollectionVC.swift */; };
+		B655347C2BBD2F1300C27827 /* PaywallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655347B2BBD2F1300C27827 /* PaywallVC.swift */; };
+		B655347E2BBD2F1B00C27827 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655347D2BBD2F1B00C27827 /* OnBoardingVC.swift */; };
+		B65534812BBD301700C27827 /* NeonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = B65534802BBD301700C27827 /* NeonSDK */; };
+		B65534832BBD35E000C27827 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534822BBD35E000C27827 /* ExtensionUIColor.swift */; };
+		B65534862BBD63BC00C27827 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534852BBD63BC00C27827 /* SettingsVC.swift */; };
+		B65534882BBD688D00C27827 /* AvatarIdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534872BBD688D00C27827 /* AvatarIdVC.swift */; };
+		B655348A2BBD7BD900C27827 /* AvatarPromptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534892BBD7BD900C27827 /* AvatarPromptVC.swift */; };
+		B655348C2BBD8F5F00C27827 /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655348B2BBD8F5F00C27827 /* CreateVC.swift */; };
+		B65534902BBEAE3000C27827 /* Avatars.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655348F2BBEAE3000C27827 /* Avatars.swift */; };
+		B65534932BBEAEFB00C27827 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534922BBEAEFB00C27827 /* AvatarCell.swift */; };
+		B65534952BBEAF5D00C27827 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534942BBEAF5D00C27827 /* UIHelper.swift */; };
+		B65534972BBEAF9000C27827 /* CGFloatExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534962BBEAF9000C27827 /* CGFloatExt.swift */; };
+		B655349B2BBED48F00C27827 /* AvatarCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B65534992BBED48F00C27827 /* AvatarCoreData.xcdatamodeld */; };
+		B655349D2BBF3E8C00C27827 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655349C2BBF3E8C00C27827 /* ResultVC.swift */; };
+		B655349F2BC01F8000C27827 /* AButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655349E2BC01F8000C27827 /* AButton.swift */; };
+		B65534A42BC171A300C27827 /* RestorePurchaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534A32BC171A300C27827 /* RestorePurchaseVC.swift */; };
+		B65534A62BC171AD00C27827 /* PrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534A52BC171AD00C27827 /* PrivacyVC.swift */; };
+		B65534A82BC171B400C27827 /* TermOfUseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534A72BC171B400C27827 /* TermOfUseVC.swift */; };
+		B65534AA2BC171BC00C27827 /* RateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534A92BC171BC00C27827 /* RateVC.swift */; };
+		B65534AD2BC174E100C27827 /* PremiumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534AC2BC174E100C27827 /* PremiumVC.swift */; };
+		B65534AF2BC19B1D00C27827 /* AvatarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534AE2BC19B1D00C27827 /* AvatarManager.swift */; };
+		B65534B32BC1ECD500C27827 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534B22BC1ECD500C27827 /* Constants.swift */; };
+		B65534BC2BC2889100C27827 /* OptionsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65534BB2BC2889100C27827 /* OptionsButton.swift */; };
+		B6F3F6A92BC3CCA900C67544 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F3F6A82BC3CCA900C67544 /* HomeVC.swift */; };
+		B6F3F6AB2BCE5FDB00C67544 /* NeonAvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F3F6AA2BCE5FDB00C67544 /* NeonAvatarCell.swift */; };
+		B6F3F6AF2BD1055F00C67544 /* CollectionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F3F6AE2BD1055F00C67544 /* CollectionVM.swift */; };
+		B6F3F6B32BD1057000C67544 /* AvatarIdVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F3F6B22BD1057000C67544 /* AvatarIdVM.swift */; };
+		B6F3F6B92BD1058500C67544 /* ResultVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F3F6B82BD1058500C67544 /* ResultVM.swift */; };
+		B6F3F6C22BD14A7200C67544 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B6F3F6C12BD14A7200C67544 /* RxCocoa */; };
+		B6F3F6C42BD14A7200C67544 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B6F3F6C32BD14A7200C67544 /* RxSwift */; };
+		B6F3F7192BD9461000C67544 /* StoreKitTestCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = B6F3F7182BD9461000C67544 /* StoreKitTestCertificate.cer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B65534622BBD2ED900C27827 /* NeonAvatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonAvatar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65534652BBD2ED900C27827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B655346E2BBD2EDB00C27827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B65534712BBD2EDB00C27827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B65534732BBD2EDB00C27827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65534792BBD2F0B00C27827 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		B655347B2BBD2F1300C27827 /* PaywallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallVC.swift; sourceTree = "<group>"; };
+		B655347D2BBD2F1B00C27827 /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
+		B65534822BBD35E000C27827 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		B65534852BBD63BC00C27827 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		B65534872BBD688D00C27827 /* AvatarIdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarIdVC.swift; sourceTree = "<group>"; };
+		B65534892BBD7BD900C27827 /* AvatarPromptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPromptVC.swift; sourceTree = "<group>"; };
+		B655348B2BBD8F5F00C27827 /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
+		B655348F2BBEAE3000C27827 /* Avatars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatars.swift; sourceTree = "<group>"; };
+		B65534922BBEAEFB00C27827 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		B65534942BBEAF5D00C27827 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		B65534962BBEAF9000C27827 /* CGFloatExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExt.swift; sourceTree = "<group>"; };
+		B655349A2BBED48F00C27827 /* AvatarCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AvatarCoreData.xcdatamodel; sourceTree = "<group>"; };
+		B655349C2BBF3E8C00C27827 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		B655349E2BC01F8000C27827 /* AButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AButton.swift; sourceTree = "<group>"; };
+		B65534A32BC171A300C27827 /* RestorePurchaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestorePurchaseVC.swift; sourceTree = "<group>"; };
+		B65534A52BC171AD00C27827 /* PrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyVC.swift; sourceTree = "<group>"; };
+		B65534A72BC171B400C27827 /* TermOfUseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermOfUseVC.swift; sourceTree = "<group>"; };
+		B65534A92BC171BC00C27827 /* RateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateVC.swift; sourceTree = "<group>"; };
+		B65534AC2BC174E100C27827 /* PremiumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumVC.swift; sourceTree = "<group>"; };
+		B65534AE2BC19B1D00C27827 /* AvatarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarManager.swift; sourceTree = "<group>"; };
+		B65534B22BC1ECD500C27827 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B65534BB2BC2889100C27827 /* OptionsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsButton.swift; sourceTree = "<group>"; };
+		B6F3F6A82BC3CCA900C67544 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B6F3F6AA2BCE5FDB00C67544 /* NeonAvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonAvatarCell.swift; sourceTree = "<group>"; };
+		B6F3F6AE2BD1055F00C67544 /* CollectionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVM.swift; sourceTree = "<group>"; };
+		B6F3F6B22BD1057000C67544 /* AvatarIdVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarIdVM.swift; sourceTree = "<group>"; };
+		B6F3F6B82BD1058500C67544 /* ResultVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVM.swift; sourceTree = "<group>"; };
+		B6F3F7172BD9459B00C67544 /* SyncedProducts.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = SyncedProducts.storekit; sourceTree = "<group>"; };
+		B6F3F7182BD9461000C67544 /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreKitTestCertificate.cer; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B655345F2BBD2ED900C27827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F3F6C42BD14A7200C67544 /* RxSwift in Frameworks */,
+				B6F3F6C22BD14A7200C67544 /* RxCocoa in Frameworks */,
+				B65534812BBD301700C27827 /* NeonSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B65534592BBD2ED900C27827 = {
+			isa = PBXGroup;
+			children = (
+				B65534642BBD2ED900C27827 /* NeonAvatar */,
+				B65534632BBD2ED900C27827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B65534632BBD2ED900C27827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65534622BBD2ED900C27827 /* NeonAvatar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B65534642BBD2ED900C27827 /* NeonAvatar */ = {
+			isa = PBXGroup;
+			children = (
+				B65534652BBD2ED900C27827 /* AppDelegate.swift */,
+				B65534982BBEAFA000C27827 /* Helper */,
+				B65534AB2BC1745700C27827 /* Service */,
+				B65534912BBEAEE900C27827 /* Cell */,
+				B655348E2BBEAE1E00C27827 /* Model */,
+				B655348D2BBE8BD400C27827 /* View */,
+				B6F3F6AD2BD0FCE200C67544 /* ViewModel */,
+				B65534A12BC081F600C27827 /* CustomViews */,
+				B65534842BBD45CC00C27827 /* Extension */,
+				B655346E2BBD2EDB00C27827 /* Assets.xcassets */,
+				B65534702BBD2EDB00C27827 /* LaunchScreen.storyboard */,
+				B65534732BBD2EDB00C27827 /* Info.plist */,
+				B6F3F7172BD9459B00C67544 /* SyncedProducts.storekit */,
+				B6F3F7182BD9461000C67544 /* StoreKitTestCertificate.cer */,
+			);
+			path = NeonAvatar;
+			sourceTree = "<group>";
+		};
+		B65534842BBD45CC00C27827 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B65534962BBEAF9000C27827 /* CGFloatExt.swift */,
+				B65534822BBD35E000C27827 /* ExtensionUIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B655348D2BBE8BD400C27827 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B655347D2BBD2F1B00C27827 /* OnBoardingVC.swift */,
+				B655347B2BBD2F1300C27827 /* PaywallVC.swift */,
+				B65534792BBD2F0B00C27827 /* CollectionVC.swift */,
+				B6F3F6A82BC3CCA900C67544 /* HomeVC.swift */,
+				B65534872BBD688D00C27827 /* AvatarIdVC.swift */,
+				B65534892BBD7BD900C27827 /* AvatarPromptVC.swift */,
+				B655348B2BBD8F5F00C27827 /* CreateVC.swift */,
+				B655349C2BBF3E8C00C27827 /* ResultVC.swift */,
+				B65534852BBD63BC00C27827 /* SettingsVC.swift */,
+				B65534A22BC1717500C27827 /* SettingsViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B655348E2BBEAE1E00C27827 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B65534992BBED48F00C27827 /* AvatarCoreData.xcdatamodeld */,
+				B655348F2BBEAE3000C27827 /* Avatars.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B65534912BBEAEE900C27827 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B65534922BBEAEFB00C27827 /* AvatarCell.swift */,
+				B6F3F6AA2BCE5FDB00C67544 /* NeonAvatarCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B65534982BBEAFA000C27827 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B65534942BBEAF5D00C27827 /* UIHelper.swift */,
+				B65534B22BC1ECD500C27827 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B65534A12BC081F600C27827 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B655349E2BC01F8000C27827 /* AButton.swift */,
+				B65534BB2BC2889100C27827 /* OptionsButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		B65534A22BC1717500C27827 /* SettingsViews */ = {
+			isa = PBXGroup;
+			children = (
+				B65534AC2BC174E100C27827 /* PremiumVC.swift */,
+				B65534A32BC171A300C27827 /* RestorePurchaseVC.swift */,
+				B65534A52BC171AD00C27827 /* PrivacyVC.swift */,
+				B65534A72BC171B400C27827 /* TermOfUseVC.swift */,
+				B65534A92BC171BC00C27827 /* RateVC.swift */,
+			);
+			path = SettingsViews;
+			sourceTree = "<group>";
+		};
+		B65534AB2BC1745700C27827 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B65534AE2BC19B1D00C27827 /* AvatarManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B6F3F6AD2BD0FCE200C67544 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6F3F6AE2BD1055F00C67544 /* CollectionVM.swift */,
+				B6F3F6B22BD1057000C67544 /* AvatarIdVM.swift */,
+				B6F3F6B82BD1058500C67544 /* ResultVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B65534612BBD2ED900C27827 /* NeonAvatar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65534762BBD2EDB00C27827 /* Build configuration list for PBXNativeTarget "NeonAvatar" */;
+			buildPhases = (
+				B655345E2BBD2ED900C27827 /* Sources */,
+				B655345F2BBD2ED900C27827 /* Frameworks */,
+				B65534602BBD2ED900C27827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeonAvatar;
+			packageProductDependencies = (
+				B65534802BBD301700C27827 /* NeonSDK */,
+				B6F3F6C12BD14A7200C67544 /* RxCocoa */,
+				B6F3F6C32BD14A7200C67544 /* RxSwift */,
+			);
+			productName = NeonAvatar;
+			productReference = B65534622BBD2ED900C27827 /* NeonAvatar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B655345A2BBD2ED900C27827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B65534612BBD2ED900C27827 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = B655345D2BBD2ED900C27827 /* Build configuration list for PBXProject "NeonAvatar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B65534592BBD2ED900C27827;
+			packageReferences = (
+				B655347F2BBD301700C27827 /* XCRemoteSwiftPackageReference "neon-sdk" */,
+				B6F3F6C02BD14A7200C67544 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			productRefGroup = B65534632BBD2ED900C27827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65534612BBD2ED900C27827 /* NeonAvatar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B65534602BBD2ED900C27827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B655346F2BBD2EDB00C27827 /* Assets.xcassets in Resources */,
+				B65534722BBD2EDB00C27827 /* Base in Resources */,
+				B6F3F7192BD9461000C67544 /* StoreKitTestCertificate.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B655345E2BBD2ED900C27827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65534902BBEAE3000C27827 /* Avatars.swift in Sources */,
+				B65534A42BC171A300C27827 /* RestorePurchaseVC.swift in Sources */,
+				B65534A82BC171B400C27827 /* TermOfUseVC.swift in Sources */,
+				B6F3F6AF2BD1055F00C67544 /* CollectionVM.swift in Sources */,
+				B65534AD2BC174E100C27827 /* PremiumVC.swift in Sources */,
+				B65534AF2BC19B1D00C27827 /* AvatarManager.swift in Sources */,
+				B655349B2BBED48F00C27827 /* AvatarCoreData.xcdatamodeld in Sources */,
+				B65534BC2BC2889100C27827 /* OptionsButton.swift in Sources */,
+				B65534662BBD2ED900C27827 /* AppDelegate.swift in Sources */,
+				B65534882BBD688D00C27827 /* AvatarIdVC.swift in Sources */,
+				B6F3F6AB2BCE5FDB00C67544 /* NeonAvatarCell.swift in Sources */,
+				B6F3F6B92BD1058500C67544 /* ResultVM.swift in Sources */,
+				B65534A62BC171AD00C27827 /* PrivacyVC.swift in Sources */,
+				B655348C2BBD8F5F00C27827 /* CreateVC.swift in Sources */,
+				B655349F2BC01F8000C27827 /* AButton.swift in Sources */,
+				B655349D2BBF3E8C00C27827 /* ResultVC.swift in Sources */,
+				B655347A2BBD2F0B00C27827 /* CollectionVC.swift in Sources */,
+				B65534932BBEAEFB00C27827 /* AvatarCell.swift in Sources */,
+				B655347C2BBD2F1300C27827 /* PaywallVC.swift in Sources */,
+				B6F3F6B32BD1057000C67544 /* AvatarIdVM.swift in Sources */,
+				B65534832BBD35E000C27827 /* ExtensionUIColor.swift in Sources */,
+				B655347E2BBD2F1B00C27827 /* OnBoardingVC.swift in Sources */,
+				B655348A2BBD7BD900C27827 /* AvatarPromptVC.swift in Sources */,
+				B65534862BBD63BC00C27827 /* SettingsVC.swift in Sources */,
+				B6F3F6A92BC3CCA900C67544 /* HomeVC.swift in Sources */,
+				B65534972BBEAF9000C27827 /* CGFloatExt.swift in Sources */,
+				B65534AA2BC171BC00C27827 /* RateVC.swift in Sources */,
+				B65534952BBEAF5D00C27827 /* UIHelper.swift in Sources */,
+				B65534B32BC1ECD500C27827 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B65534702BBD2EDB00C27827 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65534712BBD2EDB00C27827 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B65534742BBD2EDB00C27827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B65534752BBD2EDB00C27827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B65534772BBD2EDB00C27827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UH5437SQWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeonAvatar/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need you to give permission to save this photo to your gallery";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonapps.education.SwiftyStoreKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B65534782BBD2EDB00C27827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UH5437SQWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeonAvatar/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need you to give permission to save this photo to your gallery";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neonapps.education.SwiftyStoreKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B655345D2BBD2ED900C27827 /* Build configuration list for PBXProject "NeonAvatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65534742BBD2EDB00C27827 /* Debug */,
+				B65534752BBD2EDB00C27827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65534762BBD2EDB00C27827 /* Build configuration list for PBXNativeTarget "NeonAvatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65534772BBD2EDB00C27827 /* Debug */,
+				B65534782BBD2EDB00C27827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B655347F2BBD301700C27827 /* XCRemoteSwiftPackageReference "neon-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/neon-apps/neon-sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B6F3F6C02BD14A7200C67544 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B65534802BBD301700C27827 /* NeonSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B655347F2BBD301700C27827 /* XCRemoteSwiftPackageReference "neon-sdk" */;
+			productName = NeonSDK;
+		};
+		B6F3F6C12BD14A7200C67544 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6F3F6C02BD14A7200C67544 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		B6F3F6C32BD14A7200C67544 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6F3F6C02BD14A7200C67544 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B65534992BBED48F00C27827 /* AvatarCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B655349A2BBED48F00C27827 /* AvatarCoreData.xcdatamodel */,
+			);
+			currentVersion = B655349A2BBED48F00C27827 /* AvatarCoreData.xcdatamodel */;
+			path = AvatarCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B655345A2BBD2ED900C27827 /* Project object */;
+}
